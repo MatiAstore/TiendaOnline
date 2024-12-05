@@ -1,0 +1,29 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar la BD de Django
+db.sqlite3
+
+# Ignorar los archivos de medios 
+/media/
+
+# Ignorar archivos de entorno sensibles
+*.env
+*.env.*
+
+# Ignorar logs generales
+logs/
+*.log
+
+# Ignorar archivos de configuración de editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Ignorar otros archivos específicos del OS
+.DS_Store
+Thumbs.db
